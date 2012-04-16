@@ -406,7 +406,7 @@ public class WebServiceProxyHelper {
             return assertion.getMessageId();
         } else {
             UUID oUuid = UUID.randomUUID();
-            String sUuid = oUuid.toString();
+            String sUuid = "urn:uuid:"+oUuid.toString();
             log.warn("Assertion did not contain a message ID.  Generating one now...  Message ID = " + sUuid);
             if (assertion != null) {
                 assertion.setMessageId(sUuid);
