@@ -71,10 +71,10 @@
       <wsp:All>
         <!-- <wsaws:UsingAddressing xmlns:wsaws="http://www.w3.org/2006/05/addressing/wsdl"/> -->
         <sc:KeyStore wspp:visibility="private"
-                     aliasSelector="gov.hhs.fha.nhinc.callback.KeyStoreServerAliasSelector"
-                     callbackHandler="gov.hhs.fha.nhinc.callback.KeyStoreCallbackHandler"/>
+                     aliasSelector="gov.hhs.fha.nhinc.callback.metro.KeyStoreServerAliasSelector"
+                     callbackHandler="gov.hhs.fha.nhinc.callback.metro.KeyStoreCallbackHandler"/>
         <sc:TrustStore wspp:visibility="private"
-                       callbackHandler="gov.hhs.fha.nhinc.callback.TrustStoreCallbackHandler"/>
+                       callbackHandler="gov.hhs.fha.nhinc.callback.metro.TrustStoreCallbackHandler"/>
         <sp:TransportBinding>
           <wsp:Policy>
             <sp:TransportToken>

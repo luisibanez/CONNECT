@@ -24,7 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
  */
-package gov.hhs.fha.nhinc.callback;
+package gov.hhs.fha.nhinc.callback.metro;
 
 import com.sun.org.apache.xml.internal.security.keys.KeyInfo;
 import com.sun.xml.wss.XWSSecurityException;

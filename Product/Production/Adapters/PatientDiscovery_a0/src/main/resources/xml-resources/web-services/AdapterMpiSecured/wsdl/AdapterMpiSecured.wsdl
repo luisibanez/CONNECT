@@ -46,8 +46,8 @@
     <wsp:Policy wsu:Id="AdapterMpiSecuredPortType_Binding_SoapPolicy">
         <wsp:ExactlyOne>
             <wsp:All>
-                <sc:KeyStore wspp:visibility="private" aliasSelector="gov.hhs.fha.nhinc.callback.KeyStoreServerAliasSelector" callbackHandler="gov.hhs.fha.nhinc.callback.KeyStoreCallbackHandler"/>
-                <sc:TrustStore wspp:visibility="private" callbackHandler="gov.hhs.fha.nhinc.callback.TrustStoreCallbackHandler"/>
+                <sc:KeyStore wspp:visibility="private" aliasSelector="gov.hhs.fha.nhinc.callback.metro.KeyStoreServerAliasSelector" callbackHandler="gov.hhs.fha.nhinc.callback.metro.KeyStoreCallbackHandler"/>
+                <sc:TrustStore wspp:visibility="private" callbackHandler="gov.hhs.fha.nhinc.callback.metro.TrustStoreCallbackHandler"/>
                 <sp:TransportBinding>
                     <wsp:Policy>
                         <sp:TransportToken>
