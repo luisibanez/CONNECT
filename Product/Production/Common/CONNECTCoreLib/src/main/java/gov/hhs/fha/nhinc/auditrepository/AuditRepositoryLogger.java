@@ -339,7 +339,7 @@ public class AuditRepositoryLogger {
      */
     public LogEventRequestType logAdapterXDRResponse(RegistryResponseType response, AssertionType assertion,
             String direction) {
-        log.debug("Entering AuditRepositoryLogger.logEntityXDRResponse(...)");
+        log.debug("Entering AuditRepositoryLogger.logAdapterXDRResponse(...)");
         LogEventRequestType auditMsg = null;
 
         if (isServiceEnabled()) {
@@ -347,7 +347,7 @@ public class AuditRepositoryLogger {
                     NhincConstants.AUDIT_LOG_ADAPTER_INTERFACE);
         }
 
-        log.debug("Exiting AuditRepositoryLogger.logEntityXDRResponse(...)");
+        log.debug("Exiting AuditRepositoryLogger.logAdapterXDRResponse(...)");
         return auditMsg;
     }
 
